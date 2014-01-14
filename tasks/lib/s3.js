@@ -28,7 +28,7 @@ var existsSync = ('existsSync' in fs) ? fs.existsSync : path.existsSync;
 /**
  * Success/error messages.
  */
-var MSG_UPLOAD_SUCCESS = '↗'.blue + ' Uploaded: %s to %s:%s (%s)';
+var MSG_UPLOAD_SUCCESS = '↗'.blue + ' Uploaded: %s to https://s3.amazonaws.com/%s/%s (%s)';
 var MSG_DOWNLOAD_SUCCESS = '↙'.yellow + ' Downloaded: %s (%s)';
 var MSG_DELETE_SUCCESS = '✗'.red + ' Deleted: %s';
 var MSG_COPY_SUCCESS = '→'.cyan + ' Copied: %s to %s';
